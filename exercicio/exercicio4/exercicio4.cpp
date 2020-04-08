@@ -10,8 +10,15 @@ int main()
     cout << "Quantos dias você já viveu? \n";
     cin >> days;
     years = days/365;
-    if (days/365 >=18)    
+    if
+    {
+         (days/365 >=18)    
     cout << "Você é maior de idade. \n";
-    if (days/365 < 18)
+    }
+    else
+    {
+       (days/365 < 18)
+    }
+     
     cout << "Você não é maior de idade! \n";
 }
